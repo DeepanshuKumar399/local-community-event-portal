@@ -1,0 +1,10 @@
+// Exercise 19.2 – Customize Bootstrap via _variables.scss
+// Run: npm run build-css after changes
+
+// Override Bootstrap variables BEFORE importing Bootstrap
+$primary:       #e63946;   // custom red primary color
+$secondary:     #457b9d;   // custom blue secondary
+$border-radius: 0.75rem;   // larger border radius globally
+
+// Then import Bootstrap (which uses the overrides above)
+@import "../../node_modules/bootstrap/scss/bootstrap";

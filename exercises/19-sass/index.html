@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 19 – Custom Bootstrap via Sass</title>
+  <!-- Uses compiled output from: npm run build-css -->
+  <link href="dist/css/main.css" rel="stylesheet">
+</head>
+<body class="p-4">
+  <h2 class="text-primary">Custom Primary Color</h2>
+  <p class="text-secondary">Custom Secondary Color</p>
+  <button class="btn btn-primary me-2">Primary</button>
+  <button class="btn btn-secondary">Secondary</button>
+  <div class="card mt-4 p-3" style="max-width:300px">
+    <p class="mb-0">This card uses the custom border-radius from Sass variables.</p>
+  </div>
+  <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
